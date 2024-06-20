@@ -26,7 +26,7 @@ namespace Semana3A2
 
         public override string ToString()
         {
-            return ("Calle: "+ calle +"," + " Barrio: "  + barrio);
+            return "Calle: "+ calle +", numero" +numero + " Barrio: "  + barrio;
         }
     }
 

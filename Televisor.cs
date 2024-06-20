@@ -31,6 +31,11 @@ namespace Semana3A2
         public bool Estado { get => estado; set => estado = value; }
         public int Canal { get => canal; set => canal = value; }
 
+        public override string ToString()
+        {
+            return "Marca:" + marca + " Modelo:" + modelo ;
+        }
+
 
 
         // Devuelve un valor entero con el número de canal que esta visualizándose en ese momento.
@@ -71,7 +76,7 @@ namespace Semana3A2
                 return false;   
             }
         }
-        // Informa con un verdadero si el televisor está encendido o falso en caso contrario.
+      
         public void cambiarEstado()
         {
             if (estado)
